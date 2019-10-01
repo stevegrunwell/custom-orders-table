@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Custom Tables and the Checkout Bottleneck",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "stevegrunwell",
+    "githubRepository": "custom-orders-table"
+  }
+}
