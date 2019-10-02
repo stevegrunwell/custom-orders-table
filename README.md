@@ -11,3 +11,13 @@ This session is a case study of [the WooCommerce Custom Orders Table plugin](htt
 ## Presentation History
 
 * [WooSesh 2019](https://woosesh.com) — October 10, 2019
+
+## Resources
+
+* [WooCommerce Custom Orders Table plugin](https://github.com/liquidweb/woocommerce-custom-orders-table) on GitHub
+* _[Writing WooCommerce Extensions with Confidence](https://stevegrunwell.com/blog/writing-woocommerce-extensions/)_ by Steve Grunwell
+* [WooCommerce Custom Orders Table: Compatibility Policy](https://github.com/liquidweb/woocommerce-custom-orders-table/blob/develop/CONTRIBUTING.md#compatibility-policy)
+
+## Credits
+
+* Ellipsis loading animation by [loading.io](https://loading.io/spinner/ellipsis)

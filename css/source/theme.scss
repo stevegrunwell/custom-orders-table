@@ -76,6 +76,14 @@ section.has-dark-background {
         }
     }
 
+    .seamless {
+        &, img {
+            background: none;
+            border: none;
+            box-shadow: none;
+        }
+    }
+
     .slides-link {
         display: block;
         margin-top: 1em;
@@ -83,6 +91,32 @@ section.has-dark-background {
         white-space: nowrap;
         + .slides-link {
             margin-top: 0;
+        }
+    }
+
+    .fragment-replacement {
+        .fragment {
+            transition: 0s !important;
+        }
+
+        .fragment.fade-out.visible,
+        .fragment.fade-in:not(.visible) {
+            display: none;
+        }
+    }
+
+    .giant-emoji {
+        display: inline-block;
+        font-size: 2.5em;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .col {
+            flex: 1;
         }
     }
 }

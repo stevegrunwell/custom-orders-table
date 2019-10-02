@@ -303,6 +303,11 @@ body {
 .slides a:hover img {
   box-shadow: none; }
 
+.slides .seamless, .slides .seamless img {
+  background: none;
+  border: none;
+  box-shadow: none; }
+
 .slides .slides-link {
   display: block;
   margin-top: 1em;
@@ -310,3 +315,21 @@ body {
   white-space: nowrap; }
   .slides .slides-link + .slides-link {
     margin-top: 0; }
+
+.slides .fragment-replacement .fragment {
+  transition: 0s !important; }
+
+.slides .fragment-replacement .fragment.fade-out.visible,
+.slides .fragment-replacement .fragment.fade-in:not(.visible) {
+  display: none; }
+
+.slides .giant-emoji {
+  display: inline-block;
+  font-size: 2.5em; }
+
+.slides .row {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .slides .row .col {
+    flex: 1; }
