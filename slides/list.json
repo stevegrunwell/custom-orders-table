@@ -1,4 +1,33 @@
 [
     "index.md",
+    [
+        "your-store.md",
+        "first-sale.md",
+        "more-sales.md",
+        "reports.md",
+        "reads-v-writes.md",
+        "liquid-web-plus-mindsize.md",
+        "crud.md"
+    ],
+    [
+        "challenges.md",
+        "order-data-is-sacred.md",
+        "data-integrity.md",
+        "data-migration.md",
+        "cli-migration.md",
+        "woocommerce-compatibility.md",
+        "test-bootstrapping.md",
+        "test-suites.md",
+        "core-contributions.md",
+        "old-versions.md",
+        "compatibility-policy.md"
+    ],
+    [
+        "the-future.md",
+        "wrapping-up-one-point-oh.md",
+        "profiling.md",
+        "optimizations.md",
+        "core-merge.md"
+    ],
     "thank-you.md"
 ]
