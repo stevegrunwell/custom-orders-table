@@ -19,8 +19,14 @@
         "test-bootstrapping.md",
         "test-suites.md",
         "core-contributions.md",
+        "additional-data.md",
+        "queries.md",
         "old-versions.md",
         "compatibility-policy.md"
+    ],
+    [
+        "silver-bullet.md",
+        "performance.md"
     ],
     [
         "the-future.md",

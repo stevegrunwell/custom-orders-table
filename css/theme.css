@@ -323,6 +323,11 @@ body {
 .slides .fragment-replacement .fragment.fade-in:not(.visible) {
   display: none; }
 
+.slides .collapsing-list .fragment.fade-out.visible {
+  display: block;
+  height: 0;
+  overflow: hidden; }
+
 .slides .giant-emoji {
   display: inline-block;
   font-size: 2.5em; }

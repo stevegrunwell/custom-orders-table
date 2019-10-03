@@ -2,8 +2,8 @@
 
 Repository has two test suites:
 
-1. Plugin tests
-2. WooCommerce w/ plugin enabled
+1. <!-- .element: class="fragment" --> Plugin tests
+2. <!-- .element: class="fragment" --> WooCommerce w/ plugin enabled
 
 Note:
 

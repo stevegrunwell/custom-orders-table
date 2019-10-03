@@ -1,6 +1,6 @@
 ## Profiling
 
-Numbers talk.
+![Levar Burton stating "But you don't have to take my word for it"](resources/levar-burton.gif)<!-- .element: class="seamless" -->
 
 Note:
 
