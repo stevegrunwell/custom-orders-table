@@ -1,4 +1,4 @@
-### Data portability
+## Data portability
 
 * <!-- .element: class="fragment" --> Must be easy to import order data
 * <!-- .element: class="fragment" --> Must be easy to **export** order data, too
