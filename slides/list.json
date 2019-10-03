@@ -23,6 +23,10 @@
         "compatibility-policy.md"
     ],
     [
+        "silver-bullet.md",
+        "performance.md"
+    ],
+    [
         "the-future.md",
         "wrapping-up-one-point-oh.md",
         "profiling.md",
