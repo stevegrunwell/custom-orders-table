@@ -208,6 +208,11 @@
 
 
                             
+                                
+    <section data-markdown="slides/get-involved.md"></section>
+
+
+                            
                         </section>
                     
                 
@@ -249,10 +254,14 @@
               { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
               { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( '[data-html]' ) || !!document.querySelector( 'pre code' ) || !!document.querySelector( '[data-markdown]' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
               { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
-              { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true },
+              { src: 'notes/notes.js', async: true },
               { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
             ]
           });
+
+          if (window.location.search.match( /(\?|\&)hideFooter/gi ) !== null) {
+            document.querySelector('.reveal footer').style.display = 'none';
+          }
 
         </script>
     </body>

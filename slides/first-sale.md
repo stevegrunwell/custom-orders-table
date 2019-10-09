@@ -49,6 +49,6 @@ Note:
 
 You happen to be looking at the database when you make your first sale, and you see a bunch of new entries in the postmeta table.
 
-Billing address. Shipping details. Payment information. Tax data. Around 40 postmeta entries, and that's for *each* order.
+Billing details. Shipping details. Payment information. Tax data. Around 40 postmeta entries, and that's for *each* order.
 
 Refunds push this number even higher — amounts, who approved it, notes, dates
