@@ -36,4 +36,4 @@ On small databases, this is negligible as everything might just be held in memor
 
 As the size grows, these checks get more expensive. Longer writes + table locking can impact performance.
 
-If you're handling multiple checkouts at the same time, these show writes start to pile up. Customers start wondering why you're taking so long to take their money, and reading all of this information starts getting more expensive, too. These 40M rows are dragging down your site performance, but that's just how WooCommerce works, right?
+If you're handling multiple checkouts at the same time, these slow writes start to pile up. Customers start wondering why you're taking so long to take their money, and reading all of this information starts getting more expensive, too. These 40M rows are dragging down your site performance, but that's just how WooCommerce works, right?

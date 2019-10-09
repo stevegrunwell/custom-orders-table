@@ -1,7 +1,7 @@
 ### Compatibility Policy
 
-* Latest two <u>major</u> releases of WordPress core
-* Latest three <u>minor</u> releases of WooCommerce
+* <!-- .element: class="fragment" --> Latest two <u>major</u> releases of WordPress core
+* <!-- .element: class="fragment" --> Latest three <u>minor</u> releases of WooCommerce
 
 Note:
 
